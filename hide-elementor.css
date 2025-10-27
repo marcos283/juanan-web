@@ -1,0 +1,10 @@
+/* Ocultar botones y menú original de Elementor */
+.elementor-element-1673373,
+.elementor-element-8f43539,
+.elementor-element-2793fad,
+#off-canvas-1d5554f {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
