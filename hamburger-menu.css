@@ -34,7 +34,7 @@
 .hamburger-button span {
     width: 25px;
     height: 3px;
-    background: #FFFFFF;
+    background: #000000;
     border-radius: 2px;
     transition: all 0.3s ease;
 }

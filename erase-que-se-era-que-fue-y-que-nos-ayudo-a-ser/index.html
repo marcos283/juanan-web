@@ -479,25 +479,22 @@ input:focus-visible, textarea:focus-visible {
     box-shadow: 0 6px 16px rgba(8, 78, 137, 0.6);
 }
 
-.hamburger-button span {
-    width: 25px;
-    height: 3px;
-    background: white;
-    border-radius: 2px;
-    transition: all 0.3s ease;
+/* Estilo del texto MENÚ */
+.hamburger-button {
+    font-family: "Space Grotesk", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 0.05em;
 }
 
-.hamburger-button.active span:nth-child(1) {
-    transform: rotate(45deg) translate(8px, 8px);
-}
 
-.hamburger-button.active span:nth-child(2) {
-    opacity: 0;
-}
 
-.hamburger-button.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(8px, -8px);
-}
+
+
+
+
+
 
 /* Menú Mobile */
 .mobile-menu {
@@ -632,11 +629,7 @@ body.menu-open {
 </head>
 <body class="wp-singular post-template-default single single-post postid-3054 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-delefant eio-default hello-elementor-default elementor-default elementor-kit-6 elementor-page-619">
 <!-- MENÚ HAMBURGUESA NUEVO -->
-<button id="hamburger-btn" class="hamburger-button" aria-label="Abrir menú">
-    <span></span>
-    <span></span>
-    <span></span>
-</button>
+<button id="hamburger-btn" class="hamburger-button" aria-label="Abrir menú">MENÚ</button>
 
 <nav id="mobile-menu" class="mobile-menu">
     <div class="mobile-menu-overlay"></div>
@@ -665,16 +658,7 @@ body.menu-open {
 							<img width="172" height="52" src="../wp-content/uploads/2024/02/Valverde-LogoAzul.svg" class="attachment-full size-full wp-image-2994" alt="" />								</a>
 															</div>
 				</div>
-				<div class="elementor-element elementor-element-ac892d8 elementor-fixed elementor-widget elementor-widget-button" data-id="ac892d8" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;fixed&quot;}" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="index.html#elementor-action%3Aaction%3Doff_canvas%3Aopen%26settings%3DeyJpZCI6Ijk5NzNjMDIiLCJkaXNwbGF5TW9kZSI6Im9wZW4ifQ%3D%3D">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Menú</span>
-					</span>
-					</a>
-				</div>
-								</div>
+				
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-619a4b1 e-con-full e-flex e-con e-parent" data-id="619a4b1" data-element_type="container" data-settings="{&quot;position&quot;:&quot;fixed&quot;,&quot;jet_parallax_layout_list&quot;:[]}">
@@ -685,16 +669,7 @@ body.menu-open {
 			<div class="e-off-canvas__main">
 				<div class="e-off-canvas__content">
 					<div class="elementor-element elementor-element-81ba22f e-con-full e-flex e-con e-child" data-id="81ba22f" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
-				<div class="elementor-element elementor-element-059da83 elementor-fixed elementor-widget elementor-widget-button" data-id="059da83" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;fixed&quot;}" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="index.html#elementor-action%3Aaction%3Doff_canvas%3Aclose%26settings%3DeyJpZCI6Ijk5NzNjMDIiLCJkaXNwbGF5TW9kZSI6ImNsb3NlIn0%3D">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Menú</span>
-					</span>
-					</a>
-				</div>
-								</div>
+				
 				</div>
 				<div class="elementor-element elementor-element-a490584 elementor-nav-menu__align-end elementor-nav-menu--dropdown-none subrayado hover-menu elementor-widget elementor-widget-nav-menu" data-id="a490584" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;svg aria-hidden=\&quot;true\&quot; class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;&gt;&lt;path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;&gt;&lt;\/path&gt;&lt;\/svg&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
 				<div class="elementor-widget-container">
@@ -1119,17 +1094,9 @@ body.menu-open {
 				<div class="elementor-element elementor-element-693e4f2 elementor-nav-menu--dropdown-none elementor-nav-menu__align-end elementor-widget elementor-widget-nav-menu" data-id="693e4f2" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;svg aria-hidden=\&quot;true\&quot; class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;&gt;&lt;path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;&gt;&lt;\/path&gt;&lt;\/svg&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
 				<div class="elementor-widget-container">
 								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
-				<ul id="menu-1-693e4f2" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2929"><a href="../consulta/index.html" class="elementor-item">Consulta</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2928"><a href="../sobre-mi/index.html" class="elementor-item">Sobre mí</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2927"><a href="../psicobitacora/index.html" class="elementor-item">Psicobitácora</a></li>
-<li class="menu-item menu-item-type-post_type_archive menu-item-object-servicios menu-item-3129"><a href="../servicios.1.html" class="elementor-item">Servicios</a></li>
-</ul>			</nav>
+				</nav>
 						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-				<ul id="menu-2-693e4f2" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2929"><a href="../consulta/index.html" class="elementor-item" tabindex="-1">Consulta</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2928"><a href="../sobre-mi/index.html" class="elementor-item" tabindex="-1">Sobre mí</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2927"><a href="../psicobitacora/index.html" class="elementor-item" tabindex="-1">Psicobitácora</a></li>
-<li class="menu-item menu-item-type-post_type_archive menu-item-object-servicios menu-item-3129"><a href="../servicios.1.html" class="elementor-item" tabindex="-1">Servicios</a></li>
-</ul>			</nav>
+				</nav>
 						</div>
 				</div>
 				<div class="elementor-element elementor-element-297f62c elementor-widget elementor-widget-image" data-id="297f62c" data-element_type="widget" data-widget_type="image.default">
