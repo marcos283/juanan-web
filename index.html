@@ -1267,33 +1267,35 @@ $(document).ready(function(){
 					<div class="elementor-contact-form-7 jet-elements">
 <div class="wpcf7 no-js" id="wpcf7-f1152-p2-o1" lang="es-ES" dir="ltr" data-wpcf7-id="1152">
 <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-<form action="index.html#wpcf7-f1152-p2-o1" method="post" class="wpcf7-form init" aria-label="Formulario de contacto" novalidate="novalidate" data-status="init">
-<fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="1152" /><input type="hidden" name="_wpcf7_version" value="6.1.2" /><input type="hidden" name="_wpcf7_locale" value="es_ES" /><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1152-p2-o1" /><input type="hidden" name="_wpcf7_container_post" value="2" /><input type="hidden" name="_wpcf7_posted_data_hash" value="" /><input type="hidden" name="_wpcf7_recaptcha_response" value="" />
-</fieldset>
+<form name="contacto" method="post" action="../thank-you-page/index.html" class="wpcf7-form" aria-label="Formulario de contacto" data-netlify="true" data-netlify-honeypot="bot-field">
+<input type="hidden" name="form-name" value="contacto" />
+<p style="display: none;">
+  <label>No llenar este campo: <input name="bot-field" /></label>
+</p>
 <div class="cf-container">
 	<div class="cf-col-12">
-		<p><span class="wpcf7-form-control-wrap" data-name="nombre"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Nombre*" value="" type="text" name="nombre" /></span>
+		<p><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text" placeholder="Nombre*" type="text" name="nombre" required />
 		</p>
 	</div>
 	<div class="cf-col-12">
-		<p><span class="wpcf7-form-control-wrap" data-name="telefono"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Teléfono*" value="" type="tel" name="telefono" /></span>
+		<p><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text" placeholder="Teléfono*" type="tel" name="telefono" required />
 		</p>
 	</div>
 	<div class="cf-col-12">
-		<p><span class="wpcf7-form-control-wrap" data-name="email"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="E-mail*" value="" type="email" name="email" /></span>
+		<p><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text" placeholder="E-mail*" type="email" name="email" required />
 		</p>
 	</div>
 	<div class="cf-col-12">
-		<p><span class="wpcf7-form-control-wrap" data-name="comentario"><textarea cols="40" rows="10" maxlength="2000" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Tu mensaje*" name="comentario"></textarea></span>
+		<p><textarea cols="40" rows="10" maxlength="2000" class="wpcf7-form-control wpcf7-textarea" placeholder="Tu mensaje*" name="comentario" required></textarea>
 		</p>
 	</div>
 </div>
-<p class="no-margin"><span class="wpcf7-form-control-wrap" data-name="privacidad"><span class="wpcf7-form-control wpcf7-acceptance"><span class="wpcf7-list-item"><label><input type="checkbox" name="privacidad" value="1" aria-invalid="false" /><span class="wpcf7-list-item-label"><span class="textorgpd">He leído y acepto las condiciones de la <a target="_blank" href="politica-privacidad/index.html">política de privacidad</a>.</span></span></label></span></span></span>
+<p class="no-margin"><label><input type="checkbox" name="privacidad" value="1" required /><span class="textorgpd">He leído y acepto las condiciones de la <a target="_blank" href="politica-privacidad/index.html">política de privacidad</a>.</span></label>
 </p>
-<p><span class="wpcf7-form-control-wrap" data-name="publicidad"><span class="wpcf7-form-control wpcf7-acceptance optional"><span class="wpcf7-list-item"><label><input type="checkbox" name="publicidad" value="1" aria-invalid="false" /><span class="wpcf7-list-item-label"><span class="textorgpd">Deseo recibir información comercial de productos/servicios.</span></span></label></span></span></span>
+<p><label><input type="checkbox" name="publicidad" value="1" /><span class="textorgpd">Deseo recibir información comercial de productos/servicios.</span></label>
 </p>
 <p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Enviar" />
-</p><div class="wpcf7-response-output" aria-hidden="true"></div>
+</p>
 </form>
 </div>
 </div>				</div>
